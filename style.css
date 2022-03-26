@@ -1,0 +1,309 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ubuntu-v19-latin-regular.eot");
+  src: local(""), url("../fonts/ubuntu-v19-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-v19-latin-regular.woff2") format("woff2"), url("../fonts/ubuntu-v19-latin-regular.woff") format("woff"), url("../fonts/ubuntu-v19-latin-regular.ttf") format("truetype"), url("../fonts/ubuntu-v19-latin-regular.svg#Ubuntu") format("svg");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ubuntu-v19-latin-500.eot");
+  src: local(""), url("../fonts/ubuntu-v19-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-v19-latin-500.woff2") format("woff2"), url("../fonts/ubuntu-v19-latin-500.woff") format("woff"), url("../fonts/ubuntu-v19-latin-500.ttf") format("truetype"), url("../fonts/ubuntu-v19-latin-500.svg#Ubuntu") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNowDisplay-Bold.eot");
+  src: local(""), url("../fonts/HelveticaNowDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff"), url("../fonts/HelveticaNowDisplay-Bold.ttf") format("truetype"), url("../fonts/HelveticaNowDisplay-Bold.svg") format("svg");
+}
+
+body .baby-container {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .baby-container .balloon {
+  position: absolute;
+  height: auto;
+  width: 28vw;
+  left: 1vw;
+  top: 1vh;
+}
+
+body .baby-container .flower {
+  position: absolute;
+  width: 15vw;
+  left: 2.3vw;
+  top: 73vh;
+}
+
+body .baby-container .baby {
+  position: absolute;
+  height: auto;
+  width: 56vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0vh;
+  z-index: 1;
+}
+
+body .baby-container .title {
+  position: absolute;
+  top: 48vh;
+  left: 50%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: auto;
+  z-index: 2;
+}
+
+body .baby-container .title h1 {
+  margin: 0 auto;
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2vw;
+  line-height: 3.25vw;
+  text-align: center;
+  color: #332e2e;
+}
+
+body .baby-container .title p {
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95vw;
+  line-height: 1.55vw;
+  text-align: center;
+  color: #332e2e;
+}
+
+body .baby-container .title p .transfer2 {
+  display: none;
+}
+
+body .baby-container .title p .transfer3 {
+  display: none;
+}
+
+body .baby-container .social {
+  height: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  bottom: 5.5vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 3;
+}
+
+body .baby-container .social span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.82vw;
+  text-align: center;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #332e2e;
+}
+
+body .baby-container .social .social-link {
+  margin: 2vh auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2vw;
+}
+
+body .baby-container .social .social-link .telegram {
+  width: 2.5vw;
+  height: auto;
+}
+
+body .baby-container .social .social-link .discord {
+  width: 2.6vw;
+  height: auto;
+}
+
+body .baby-container .rainbow {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  height: auto;
+  width: 64vw;
+}
+
+body .baby-container .rocket {
+  position: absolute;
+  height: auto;
+  width: 34vw;
+  right: -2vw;
+  top: 17vh;
+}
+
+@media (max-width: 1024px) {
+  body .baby-container .balloon {
+    left: 2vw;
+    top: 2vh;
+  }
+  body .baby-container .flower {
+    left: 3.9vw;
+    top: 61vh;
+  }
+  body .baby-container .rocket {
+    width: 38vw;
+    right: -4vw;
+    top: 27vh;
+  }
+  body .baby-container .baby {
+    width: 832px;
+  }
+  body .baby-container .title {
+    top: 49vh;
+  }
+  body .baby-container .title h1 {
+    font-size: 36px;
+    line-height: 53px;
+  }
+  body .baby-container .title p {
+    margin: 0.7vw 0 0;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  body .baby-container .social {
+    bottom: 3vh;
+  }
+  body .baby-container .social span {
+    font-size: 14px;
+  }
+  body .baby-container .social .social-link {
+    gap: 38px;
+  }
+  body .baby-container .social .social-link .telegram {
+    width: 40px;
+  }
+  body .baby-container .social .social-link .discord {
+    width: 44px;
+  }
+  body .baby-container .rainbow {
+    width: 84vw;
+  }
+}
+
+@media (max-width: 768px) {
+  body .baby-container .balloon {
+    left: 0vw;
+    top: 1vh;
+    width: 37vw;
+  }
+  body .baby-container .flower {
+    width: 19vw;
+    left: 2vw;
+    top: 44vh;
+  }
+  body .baby-container .baby {
+    width: 105vw;
+    top: 21vh;
+  }
+  body .baby-container .title {
+    top: 56vh;
+  }
+  body .baby-container .rainbow {
+    width: 162vw;
+    bottom: -53px;
+  }
+  body .baby-container .rocket {
+    width: 44vw;
+    right: -5vw;
+    top: 7vh;
+  }
+}
+
+@media (max-width: 560px) {
+  body .baby-container .balloon {
+    left: -2vw;
+    top: -1vh;
+    width: 204px;
+  }
+  body .baby-container .flower {
+    width: 108px;
+    left: 1vw;
+    top: 240px;
+  }
+  body .baby-container .baby {
+    width: 650px;
+    top: 19vh;
+  }
+  body .baby-container .title {
+    top: 59vh;
+  }
+  body .baby-container .title h1 {
+    font-size: 28px;
+    line-height: 41px;
+  }
+  body .baby-container .title p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  body .baby-container .title p .transfer1 {
+    display: none;
+  }
+  body .baby-container .title p .transfer2 {
+    display: block;
+  }
+  body .baby-container .title p .transfer3 {
+    display: block;
+  }
+  body .baby-container .social span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  body .baby-container .social .social-link {
+    gap: 32px;
+  }
+  body .baby-container .social .social-link .telegram {
+    width: 36px;
+  }
+  body .baby-container .social .social-link .discord {
+    width: 39px;
+  }
+  body .baby-container .rainbow {
+    width: 201vw;
+    bottom: -20px;
+  }
+  body .baby-container .rocket {
+    width: 73vw;
+    right: -28vw;
+    top: 9vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */

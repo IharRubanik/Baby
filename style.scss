@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ubuntu-v19-latin-regular.eot");
+  src: local(""),
+    url("../fonts/ubuntu-v19-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ubuntu-v19-latin-regular.woff2") format("woff2"),
+    url("../fonts/ubuntu-v19-latin-regular.woff") format("woff"),
+    url("../fonts/ubuntu-v19-latin-regular.ttf") format("truetype"),
+    url("../fonts/ubuntu-v19-latin-regular.svg#Ubuntu") format("svg");
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ubuntu-v19-latin-500.eot");
+  src: local(""),
+    url("../fonts/ubuntu-v19-latin-500.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ubuntu-v19-latin-500.woff2") format("woff2"),
+    url("../fonts/ubuntu-v19-latin-500.woff") format("woff"),
+    url("../fonts/ubuntu-v19-latin-500.ttf") format("truetype"),
+    url("../fonts/ubuntu-v19-latin-500.svg#Ubuntu") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNowDisplay-Bold.eot");
+  src: local(""),
+    url("../fonts/HelveticaNowDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNowDisplay-Bold.ttf") format("truetype"),
+    url("../fonts/HelveticaNowDisplay-Bold.svg") format("svg");
+}
+
+body {
+  //   overflow: hidden;
+  .baby-container {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .balloon {
+      position: absolute;
+      height: auto;
+      width: 28vw;
+      left: 1vw;
+      top: 1vh;
+    }
+    .flower {
+      position: absolute;
+      width: 15vw;
+      left: 2.3vw;
+      top: 73vh;
+    }
+    .baby {
+      position: absolute;
+      height: auto;
+      width: 56vw;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0vh;
+      z-index: 1;
+    }
+    .title {
+      position: absolute;
+      top: 48vh;
+      left: 50%;
+      width: max-content;
+      transform: translateX(-50%);
+      height: auto;
+      z-index: 2;
+      h1 {
+        margin: 0 auto;
+        font-family: "Helvetica Now Display";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.2vw;
+        line-height: 3.25vw;
+        text-align: center;
+        color: #332e2e;
+      }
+      p {
+        margin: 0 auto;
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.95vw;
+        line-height: 1.55vw;
+        text-align: center;
+        color: #332e2e;
+        .transfer2 {
+          display: none;
+        }
+        .transfer3 {
+          display: none;
+        }
+      }
+    }
+    .social {
+      height: auto;
+      width: max-content;
+      position: absolute;
+      bottom: 5.5vh;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      span {
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.82vw;
+        text-align: center;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #332e2e;
+      }
+      .social-link {
+        margin: 2vh auto 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        .telegram {
+          width: 2.5vw;
+          height: auto;
+        }
+        .discord {
+          width: 2.6vw;
+          height: auto;
+        }
+      }
+    }
+    .rainbow {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      height: auto;
+      width: 64vw;
+    }
+    .rocket {
+      position: absolute;
+      height: auto;
+      width: 34vw;
+      right: -2vw;
+      top: 17vh;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    .baby-container {
+      .balloon {
+        left: 2vw;
+        top: 2vh;
+      }
+      .flower {
+        left: 3.9vw;
+        top: 61vh;
+      }
+      .rocket {
+        width: 38vw;
+        right: -4vw;
+        top: 27vh;
+      }
+      .baby {
+        width: 832px;
+      }
+      .title {
+        top: 49vh;
+        h1 {
+          font-size: 36px;
+          line-height: 53px;
+        }
+        p {
+          margin: 0.7vw 0 0;
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+      .social {
+        bottom: 3vh;
+        span {
+          font-size: 14px;
+        }
+        .social-link {
+          gap: 38px;
+          .telegram {
+            width: 40px;
+          }
+          .discord {
+            width: 44px;
+          }
+        }
+      }
+      .rainbow {
+        width: 84vw;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  body {
+    .baby-container {
+      .balloon {
+        left: 0vw;
+        top: 1vh;
+        width: 37vw;
+      }
+      .flower {
+        width: 19vw;
+        left: 2vw;
+        top: 44vh;
+      }
+      .baby {
+        width: 105vw;
+        top: 21vh;
+      }
+      .title {
+        top: 56vh;
+      }
+      .rainbow {
+        width: 162vw;
+        bottom: -53px;
+      }
+      .rocket {
+        width: 44vw;
+        right: -5vw;
+        top: 7vh;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  body {
+    .baby-container {
+      .balloon {
+        left: -2vw;
+        top: -1vh;
+        width: 204px;
+      }
+      .flower {
+        width: 108px;
+        left: 1vw;
+        top: 240px;
+      }
+      .baby {
+        width: 650px;
+        top: 19vh;
+      }
+      .title {
+        top: 59vh;
+        h1 {
+          font-size: 28px;
+          line-height: 41px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 24px;
+          .transfer1 {
+            display: none;
+          }
+          .transfer2 {
+            display: block;
+          }
+          .transfer3 {
+            display: block;
+          }
+        }
+      }
+      .social {
+        span {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        .social-link {
+            gap: 32px;
+          .telegram {
+            width: 36px;
+          }
+          .discord{
+              width: 39px;
+          }
+        }
+      }
+      .rainbow {
+        width: 201vw;
+        bottom: -20px;
+      }
+      .rocket {
+        width: 73vw;
+        right: -28vw;
+        top: 9vh;
+      }
+    }
+  }
+}
