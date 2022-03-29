@@ -39,7 +39,7 @@
 }
 
 body {
-    overflow: hidden;
+  overflow: hidden;
   .baby-container {
     overflow: hidden;
     position: absolute;
@@ -81,7 +81,7 @@ body {
       transform: translateX(-50%);
       height: auto;
       z-index: 2;
- 
+
       p {
         margin: 0 auto;
         font-family: "Ubuntu";
@@ -126,10 +126,18 @@ body {
         .telegram {
           width: 2.5vw;
           height: auto;
+          &:hover{
+            transition: 0.2s;
+            transform: scale(1.15);
+          }
         }
         .discord {
           width: 2.6vw;
           height: auto;
+          &:hover{
+            transition: 0.2s;
+            transform: scale(1.15);
+          }
         }
       }
     }
@@ -172,7 +180,7 @@ body {
       }
       .title {
         top: 56vh;
-     
+
         p {
           margin: 0.7vw 0 0;
           font-size: 16px;
@@ -251,7 +259,7 @@ body {
       }
       .title {
         top: 63vh;
-      
+
         p {
           font-size: 15px;
           line-height: 24px;

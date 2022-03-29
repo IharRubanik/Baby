@@ -140,9 +140,23 @@ body .baby-container .social .social-link .telegram {
   height: auto;
 }
 
+body .baby-container .social .social-link .telegram:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
 body .baby-container .social .social-link .discord {
   width: 2.6vw;
   height: auto;
+}
+
+body .baby-container .social .social-link .discord:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 body .baby-container .rainbow {
