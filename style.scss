@@ -2,40 +2,40 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ubuntu-v19-latin-regular.eot");
+  src: url("./fonts/ubuntu-v19-latin-regular.eot");
   src: local(""),
-    url("../fonts/ubuntu-v19-latin-regular.eot?#iefix")
+    url("./fonts/ubuntu-v19-latin-regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../fonts/ubuntu-v19-latin-regular.woff2") format("woff2"),
-    url("../fonts/ubuntu-v19-latin-regular.woff") format("woff"),
-    url("../fonts/ubuntu-v19-latin-regular.ttf") format("truetype"),
-    url("../fonts/ubuntu-v19-latin-regular.svg#Ubuntu") format("svg");
+    url("./fonts/ubuntu-v19-latin-regular.woff2") format("woff2"),
+    url("./fonts/ubuntu-v19-latin-regular.woff") format("woff"),
+    url("./fonts/ubuntu-v19-latin-regular.ttf") format("truetype"),
+    url("./fonts/ubuntu-v19-latin-regular.svg#Ubuntu") format("svg");
 }
 @font-face {
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/ubuntu-v19-latin-500.eot");
+  src: url("./fonts/ubuntu-v19-latin-500.eot");
   src: local(""),
-    url("../fonts/ubuntu-v19-latin-500.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/ubuntu-v19-latin-500.woff2") format("woff2"),
-    url("../fonts/ubuntu-v19-latin-500.woff") format("woff"),
-    url("../fonts/ubuntu-v19-latin-500.ttf") format("truetype"),
-    url("../fonts/ubuntu-v19-latin-500.svg#Ubuntu") format("svg");
+    url("./fonts/ubuntu-v19-latin-500.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/ubuntu-v19-latin-500.woff2") format("woff2"),
+    url("./fonts/ubuntu-v19-latin-500.woff") format("woff"),
+    url("./fonts/ubuntu-v19-latin-500.ttf") format("truetype"),
+    url("./fonts/ubuntu-v19-latin-500.svg#Ubuntu") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica Now Display";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/HelveticaNowDisplay-Bold.eot");
+  src: url("./fonts/HelveticaNowDisplay-Bold.eot");
   src: local(""),
-    url("../fonts/HelveticaNowDisplay-Bold.eot?#iefix")
+    url("./fonts/HelveticaNowDisplay-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
-    url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff"),
-    url("../fonts/HelveticaNowDisplay-Bold.ttf") format("truetype"),
-    url("../fonts/HelveticaNowDisplay-Bold.svg") format("svg");
+    url("./fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
+    url("./fonts/HelveticaNowDisplay-Bold.woff") format("woff"),
+    url("./fonts/HelveticaNowDisplay-Bold.ttf") format("truetype"),
+    url("./fonts/HelveticaNowDisplay-Bold.svg") format("svg");
 }
 
 body {
