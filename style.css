@@ -22,6 +22,10 @@
   src: local(""), url("../fonts/HelveticaNowDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff"), url("../fonts/HelveticaNowDisplay-Bold.ttf") format("truetype"), url("../fonts/HelveticaNowDisplay-Bold.svg") format("svg");
 }
 
+body {
+  overflow: hidden;
+}
+
 body .baby-container {
   overflow: hidden;
   position: absolute;
@@ -53,17 +57,17 @@ body .baby-container .flower {
 body .baby-container .baby {
   position: absolute;
   height: auto;
-  width: 56vw;
+  width: 25vw;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  top: 0vh;
+  top: 2vh;
   z-index: 1;
 }
 
 body .baby-container .title {
   position: absolute;
-  top: 48vh;
+  top: 55vh;
   left: 50%;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -72,17 +76,6 @@ body .baby-container .title {
           transform: translateX(-50%);
   height: auto;
   z-index: 2;
-}
-
-body .baby-container .title h1 {
-  margin: 0 auto;
-  font-family: "Helvetica Now Display";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.2vw;
-  line-height: 3.25vw;
-  text-align: center;
-  color: #332e2e;
 }
 
 body .baby-container .title p {
@@ -185,14 +178,10 @@ body .baby-container .rocket {
     top: 27vh;
   }
   body .baby-container .baby {
-    width: 832px;
+    width: 394px;
   }
   body .baby-container .title {
-    top: 49vh;
-  }
-  body .baby-container .title h1 {
-    font-size: 36px;
-    line-height: 53px;
+    top: 56vh;
   }
   body .baby-container .title p {
     margin: 0.7vw 0 0;
@@ -207,6 +196,7 @@ body .baby-container .rocket {
   }
   body .baby-container .social .social-link {
     gap: 38px;
+    margin: 3vh auto 0;
   }
   body .baby-container .social .social-link .telegram {
     width: 40px;
@@ -231,11 +221,10 @@ body .baby-container .rocket {
     top: 44vh;
   }
   body .baby-container .baby {
-    width: 105vw;
-    top: 21vh;
+    top: 16vh;
   }
   body .baby-container .title {
-    top: 56vh;
+    top: 57vh;
   }
   body .baby-container .rainbow {
     width: 162vw;
@@ -260,15 +249,11 @@ body .baby-container .rocket {
     top: 240px;
   }
   body .baby-container .baby {
-    width: 650px;
-    top: 19vh;
+    width: 326px;
+    top: 15vh;
   }
   body .baby-container .title {
-    top: 59vh;
-  }
-  body .baby-container .title h1 {
-    font-size: 28px;
-    line-height: 41px;
+    top: 63vh;
   }
   body .baby-container .title p {
     font-size: 15px;
